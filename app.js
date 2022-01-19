@@ -2,35 +2,43 @@ function getSum(a,b) {
 
     var sum = (a + b);
     console.log(sum);
+    return sum;
 
 }
 
-getSum(1,2);
+var myResult = getSum(1,2);
+console.log("the sum is " + myResult)
 
 function getDifference(a,b) {
 
     var difference = (a - b);
     console.log(difference);
+    return difference;
 
 
 }
 
-getDifference(4,2)
+var myResult = getDifference(4,2);
+console.log("the difference is " + myResult)
 
 function justMultiply(a,b) {
 
     var multiply = (a * b);
     console.log(multiply);
+    return multiply;
 
 }
 
-justMultiply(2,2)
+var myResult = justMultiply(2,2);
+console.log("the answer is " + myResult)
 
 function justDivide(a,b) {
 
     var divide = (a / b);
     console.log(divide);
+    return divide;
 
 }
 
-justDivide(10,2)
+var myResult = justDivide(10,2);
+console.log("the answer is " + myResult);
